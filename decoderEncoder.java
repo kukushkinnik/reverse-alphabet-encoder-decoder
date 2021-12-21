@@ -31,7 +31,7 @@ public  class  Test {
             if(command.equalsIgnoreCase("encode")) {
                 System.out.print("Please give a word to encode: ");
                 word = scanner.nextLine();
-               String encodedWord =  encoder(word);
+               String encodedWord =  encoderDecoder(word);
                System.out.println("Encoded word is " + encodedWord);
                System.out.println();
             }
@@ -39,7 +39,7 @@ public  class  Test {
             if(command.equalsIgnoreCase("decode")) {
                 System.out.print("Please give a word to decode: ");
                 word = scanner.nextLine();
-               String decodedWord =  encoder(word);
+               String decodedWord =  encoderDecoder(word);
                System.out.println("Decoded word is " + decodedWord);
                System.out.println();
             }
