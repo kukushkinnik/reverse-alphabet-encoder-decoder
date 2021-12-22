@@ -20,6 +20,7 @@ public  class  Test {
         System.out.println("List of commands: ");
         System.out.println("1.Encode - encodes given word or sentence");
         System.out.println("2.Decode - decodes given word or setence");
+        System.out.println("To exit programm type end");
 
         while(true) {
             String command = scanner.nextLine();
